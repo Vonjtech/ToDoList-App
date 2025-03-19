@@ -58,7 +58,7 @@ Go to Netlify and create a new site from Git.
 
 Connect your repository, and Netlify will automatically build and deploy your app.
 
-click on th edeployment button to build and deploy 
+click on the deployment button to build and deploy 
 
 
 **Use Case Diagram**
