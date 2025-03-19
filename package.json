@@ -1,8 +1,20 @@
 {
   "name": "react-todolist-app",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "**ToDOList App**",
+  "homepage": "https://github.com/Vonjtech/ToDoList-App#readme",
+  "bugs": {
+    "url": "https://github.com/Vonjtech/ToDoList-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vonjtech/ToDoList-App.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,9 +29,9 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.4.6",
     "@mui/material": "^6.4.6",
-    "react": "^19.0.0",
-    "react-beautiful-dnd": "^13.1.1",
-    "react-dom": "^19.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
