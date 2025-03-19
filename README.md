@@ -24,18 +24,7 @@ CSS: For styling the application.
 Custom Hooks: For managing tasks and application state.
 
 **Project Structure**
-• src/
-├── components/
-│ ├── CreateArea.jsx
-│ ├── Footer.jsx
-│ ├── Header.jsx
-│ ├── Note.jsx
-├── App.jsx
-├── index.js
-├── styles.css
-• public/
-• package.json
-• vite.config.js
+![image](https://github.com/user-attachments/assets/5d88878a-11a7-42ff-874a-c61fca211ff3)
 
 **How to Run/Deploy the Project**
 
