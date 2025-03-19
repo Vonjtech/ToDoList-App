@@ -43,8 +43,9 @@ Local Development
 
 Clone the repository:
 
-git clone https://github.com/yourusername/todo-list-app.git
-cd todo-list-app
+git clone https://github.com/Vonjtech/ToDoList-App.git
+
+cd ToDoList-App
 
 **Install dependencies:**
 
@@ -54,11 +55,11 @@ npm install
 
 npm start
 
-Open your browser and visit http://localhost:3000 to see the app in action.
+Open your browser and visit http://localhost:3001 to see the app in action.
 
 **Deployment**
 
-To deploy the app online, you can use platforms like Netlify, Vercel, or GitHub Pages.
+To deploy the app online, using platforms like Netlify, and GitHub Pages.
 
 **Deploying on Netlify:**
 
@@ -67,14 +68,6 @@ Push your changes to GitHub.
 Go to Netlify and create a new site from Git.
 
 Connect your repository, and Netlify will automatically build and deploy your app.
-
-**Deploying on Vercel:**
-
-Push your changes to GitHub.
-
-Go to Vercel and sign in.
-
-Import your GitHub repository and let Vercel handle the deployment.
 
 **Deploying on GitHub Pages:**
 
