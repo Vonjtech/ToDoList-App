@@ -1,12 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 **ToDOList App**
 
 **Project Overview**
@@ -106,38 +97,8 @@ npm run deploy
 Your app will be live at https://yourusername.github.io/todo-list-app.
 
 **Use Case Diagram**
+![image](https://github.com/user-attachments/assets/52ae4a6c-b248-414d-bc84-9056d4b22a5e)
 
-                 +----------------------+
-                 |    To-Do List App    |
-                 +----------------------+
-                          |
-      +--------------------------------------+
-      |                                      |
-
-+---------------+ +----------------+
-| User |------------------>| Task System |
-+---------------+ +----------------+
-| |
-| +--------------------------------+
-| | | |
-| +----------+ +----------+ +----------+
-| | Add Task | | Edit Task| | Delete Task |
-| +----------+ +----------+ +----------+
-| | | |
-| v v v
-| +---------------------+ +----------------------+
-| | View Tasks | | Reorder Tasks |
-| +---------------------+ +----------------------+
-| | |
-| v v
-| +---------------------+ +----------------------+
-| | Bulk Delete | | Set Due Dates |
-| +---------------------+ +----------------------+
-| |
-| v
-| +----------------------+
-| | Manage Task System |
-| +----------------------+
 
 Use Cases
 
