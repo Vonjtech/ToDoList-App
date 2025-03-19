@@ -1,12 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 **ToDOList App**
 
 **Project Overview**
@@ -33,18 +24,7 @@ CSS: For styling the application.
 Custom Hooks: For managing tasks and application state.
 
 **Project Structure**
-• src/
-├── components/
-│ ├── CreateArea.jsx
-│ ├── Footer.jsx
-│ ├── Header.jsx
-│ ├── Note.jsx
-├── App.jsx
-├── index.js
-├── styles.css
-• public/
-• package.json
-• vite.config.js
+![alt text](image-2.png)
 
 **How to Run/Deploy the Project**
 
@@ -52,8 +32,9 @@ Local Development
 
 Clone the repository:
 
-git clone https://github.com/yourusername/todo-list-app.git
-cd todo-list-app
+git clone https://github.com/Vonjtech/ToDoList-App.git
+
+cd ToDoList-App
 
 **Install dependencies:**
 
@@ -63,7 +44,7 @@ npm install
 
 npm start
 
-Open your browser and visit http://localhost:3000 to see the app in action.
+Open your browser and visit http://localhost:3001 to see the app in action.
 
 **Deployment**
 
@@ -106,38 +87,7 @@ npm run deploy
 Your app will be live at https://yourusername.github.io/todo-list-app.
 
 **Use Case Diagram**
-
-                 +----------------------+
-                 |    To-Do List App    |
-                 +----------------------+
-                          |
-      +--------------------------------------+
-      |                                      |
-
-+---------------+ +----------------+
-| User |------------------>| Task System |
-+---------------+ +----------------+
-| |
-| +--------------------------------+
-| | | |
-| +----------+ +----------+ +----------+
-| | Add Task | | Edit Task| | Delete Task |
-| +----------+ +----------+ +----------+
-| | | |
-| v v v
-| +---------------------+ +----------------------+
-| | View Tasks | | Reorder Tasks |
-| +---------------------+ +----------------------+
-| | |
-| v v
-| +---------------------+ +----------------------+
-| | Bulk Delete | | Set Due Dates |
-| +---------------------+ +----------------------+
-| |
-| v
-| +----------------------+
-| | Manage Task System |
-| +----------------------+
+![alt text](image-1.png)
 
 Use Cases
 
@@ -190,8 +140,6 @@ Action: The user selects a task and sets a due date.
 Expected Outcome: The task displays its due date.
 
 **Future Improvements**
-
-Task Categories: Label tasks as "Work", "Personal", etc.
 
 Notifications: Alerts for upcoming due dates.
 
