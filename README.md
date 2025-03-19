@@ -81,7 +81,6 @@ Your app will be live at https://yourusername.github.io/todo-list-app.
 **Use Case Diagram**
 ![image](https://github.com/user-attachments/assets/52ae4a6c-b248-414d-bc84-9056d4b22a5e)
 
-
 Use Cases
 
 **Adding a Task**
