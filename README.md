@@ -133,8 +133,6 @@ Expected Outcome: The task displays its due date.
 
 **Future Improvements**
 
-Task Categories: Label tasks as "Work", "Personal", etc.
-
 Notifications: Alerts for upcoming due dates.
 
 User Authentication: Allow users to log in and save tasks across devices.
