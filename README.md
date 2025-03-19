@@ -48,7 +48,7 @@ Open your browser and visit http://localhost:3001 to see the app in action.
 
 **Deployment**
 
-To deploy the app online, you can use platforms like Netlify, Vercel, or GitHub Pages.
+I use github for version control and netlify for deployment of the app.
 
 **Deploying on Netlify:**
 
@@ -58,33 +58,8 @@ Go to Netlify and create a new site from Git.
 
 Connect your repository, and Netlify will automatically build and deploy your app.
 
-**Deploying on Vercel:**
+click on th edeployment button to build and deploy 
 
-Push your changes to GitHub.
-
-Go to Vercel and sign in.
-
-Import your GitHub repository and let Vercel handle the deployment.
-
-**Deploying on GitHub Pages:**
-
-Install gh-pages:
-
-npm install --save gh-pages
-
-Add deployment scripts in package.json:
-
-"homepage": "https://yourusername.github.io/todo-list-app",
-"scripts": {
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"
-}
-
-**Deploy your app:**
-
-npm run deploy
-
-Your app will be live at https://yourusername.github.io/todo-list-app.
 
 **Use Case Diagram**
 ![alt text](image-1.png)
